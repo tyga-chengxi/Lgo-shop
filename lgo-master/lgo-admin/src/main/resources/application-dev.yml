@@ -1,0 +1,56 @@
+redis:
+  database: 0
+
+  expire:
+    common: 6000 # 通用缓存过期时间，例如 100 分钟（6000秒）
+    admin: 86400 # 后台用户 token 过期时间，例如 24 小时
+    resource: 6000 # 资源列表缓存过期时间
+
+    key:
+      admin:
+        lgo:admin:login:  #【Day1框架升级适配】
+      resource:
+        lgo:resource:  #【Day1框架升级适配】
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/lgo_shop?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false  #【Day1框架升级适配】
+    username: root
+    password: 200410
+    druid:
+      initial-size: 5 #连接池初始化大小
+      min-idle: 10 #最小空闲连接数
+      max-active: 20 #最大连接数
+      web-stat-filter:
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" #不统计这些请求数据
+      stat-view-servlet: #访问监控网页的登录用户名和密码
+        login-username: druid
+        login-password: druid
+  redis:
+    host: 172.27.69.136 # Redis服务器地址（WSL）
+    database: 0 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password: # Redis服务器连接密码（默认为空）
+    timeout: 300ms # 连接超时时间（毫秒）
+    lettuce: # Lettuce 连接池配置（关键！）
+      pool:
+        max-active: 8    # 连接池最大连接数（默认 8）
+        max-idle: 8      # 连接池最大空闲连接数（默认 8）
+        min-idle: 0      # 连接池最小空闲连接数（默认 0）
+        max-wait: -1ms
+
+minio:
+  endpoint: http://localhost:9000 #MinIO服务所在地址
+  bucketName: lgo #存储桶名称  #【Day1框架升级适配】
+  accessKey: minioadmin #访问的key
+  secretKey: minioadmin #访问的秘钥
+
+logging:
+  level:
+    root: info
+    com.lgoshop: debug  #【Day1框架升级适配】
+
+logstash:
+  host: localhost
+  enableInnerLog: false

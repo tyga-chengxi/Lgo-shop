@@ -1,0 +1,42 @@
+version: '3'
+services:
+  lgo-admin: #【Day1框架升级适配】
+    image: lgo/lgo-admin:1.0-SNAPSHOT #【Day1框架升级适配】
+    container_name: lgo-admin #【Day1框架升级适配】
+    ports:
+      - 8080:8080
+    volumes:
+      - /mydata/app/lgo-admin/logs:/var/logs #【Day1框架升级适配】
+      - /etc/localtime:/etc/localtime
+    environment:
+      - 'TZ="Asia/Shanghai"'
+    external_links:
+      - mysql:db #可以用db这个域名访问mysql服务
+  lgo-search: #【Day1框架升级适配】
+    image: lgo/lgo-search:1.0-SNAPSHOT #【Day1框架升级适配】
+    container_name: lgo-search #【Day1框架升级适配】
+    ports:
+      - 8081:8081
+    volumes:
+      - /mydata/app/lgo-search/logs:/var/logs #【Day1框架升级适配】
+      - /etc/localtime:/etc/localtime
+    environment:
+      - 'TZ="Asia/Shanghai"'
+    external_links:
+      - elasticsearch:es #可以用es这个域名访问elasticsearch服务
+      - mysql:db #可以用db这个域名访问mysql服务
+  lgo-portal: #【Day1框架升级适配】
+    image: lgo/lgo-portal:1.0-SNAPSHOT #【Day1框架升级适配】
+    container_name: lgo-portal #【Day1框架升级适配】
+    ports:
+      - 8085:8085
+    volumes:
+      - /mydata/app/lgo-portal/logs:/var/logs #【Day1框架升级适配】
+      - /etc/localtime:/etc/localtime
+    environment:
+      - 'TZ="Asia/Shanghai"'
+    external_links:
+      - redis:redis #可以用redis这个域名访问redis服务
+      - mongo:mongo #可以用mongo这个域名访问mongo服务
+      - mysql:db #可以用db这个域名访问mysql服务
+      - rabbitmq:rabbit #可以用rabbit这个域名访问rabbitmq服务

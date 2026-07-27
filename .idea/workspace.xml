@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="babf3db2-a780-469b-baa2-58478ee256e6" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/.env" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/src/icons/svg/login-mall.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/src/views/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/src/views/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-admin-web/src/views/normal/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-admin-web/src/views/normal/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-app-web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-app-web/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-app-web/src/pages/category/category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-app-web/src/pages/category/category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-app-web/src/pages/public/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-app-web/src/pages/public/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-app-web/src/pages/public/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-app-web/src/pages/public/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-app-web/src/pages/set/set.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-app-web/src/pages/set/set.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lgo-app-web/src/pages/user/user.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lgo-app-web/src/pages/user/user.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lgo-admin-web" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GvnFQLRMBW0l9XaXXN72SkvofB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Users/DEll/A_projects/LGO-Shop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.applicationServers",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="babf3db2-a780-469b-baa2-58478ee256e6" name="更改" comment="" />
+      <created>1784860805745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784860805745</updated>
+      <workItem from="1784860806806" duration="144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
